@@ -1,0 +1,9 @@
+my:
+  greeting: Hello from Config server.
+  list:
+    values: One,Two,Three
+
+db:
+  connection: "{connectionString: 'Coming from Config server', userName: 'mydbConfig', password: 'mypass'}"
+  host: 127.0.0.1
+  port: 1200
